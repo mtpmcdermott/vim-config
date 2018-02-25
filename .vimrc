@@ -29,5 +29,8 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 " toggle the tree
 map <C-n> :NERDTreeToggle<CR>
 
+" toggle source code tree
+map <C-m> :TlistToggle<CR>>
+
 " database connections
 " let g:dbext_default_profile_mysql_local = 'type=MYSQL:user=root:passwd=whatever:dbname=mysql'

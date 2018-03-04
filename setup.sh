@@ -19,6 +19,8 @@ git clone https://github.com/vim-scripts/dbext.vim ${BundleRoot}/dbtext # sql cl
 git clone https://github.com/pearofducks/ansible-vim ${BundleRoot}/ansible-vim # ansible support
 git clone https://github.com/ervandew/supertab ${BundleRoot}/supertab # autocomplete on tab
 git clone https://github.com/vim-scripts/taglist.vim.git ${BundleRoot}/taglist # source code browser, install ctags for this to work
+git clone git://github.com/ntpeters/vim-better-whitespace.git ${BundleRoot}/vim-better-whitespace # highlight whitespace
+git clone https://github.com/scrooloose/nerdcommenter.git ${BundleRoot}/nerdcommenter # better commenting
 
 # Theme
 git clone https://github.com/Lokaltog/vim-distinguished ${TempRoot}/vim-distinguished

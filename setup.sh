@@ -21,6 +21,7 @@ git clone https://github.com/ervandew/supertab ${BundleRoot}/supertab # autocomp
 git clone https://github.com/vim-scripts/taglist.vim.git ${BundleRoot}/taglist # source code browser, install ctags for this to work
 git clone git://github.com/ntpeters/vim-better-whitespace.git ${BundleRoot}/vim-better-whitespace # highlight whitespace
 git clone https://github.com/scrooloose/nerdcommenter.git ${BundleRoot}/nerdcommenter # better commenting
+git clone https://github.com/vim-scripts/TabBar ${BundleRoot}/vim-tabbar # simple tabbar}
 
 # Theme
 git clone https://github.com/Lokaltog/vim-distinguished ${TempRoot}/vim-distinguished

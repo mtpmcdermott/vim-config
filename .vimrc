@@ -1,4 +1,5 @@
 execute pathogen#infect()
+
 " Display
 syntax on
 set number
@@ -7,17 +8,6 @@ set cursorline
 colorscheme distinguished
 
 filetype plugin on
-
-" cliboard syncing
-if has("clipboard")
-  set clipboard=unnamed " copy to the system clipboard
-
-  if has("unnamedplus") " X11 support
-    set clipboard+=unnamedplus
-  endif
-endif
-map <F2> :.w !pbcopy<CR><CR>
-map <F3> :r !pbpaste<CR>
 
 " change the directory of the swap file
 set directory^=$HOME/.vim/.tmp//
@@ -28,13 +18,18 @@ set shiftwidth=4
 set expandtab
 set autoindent
 
-" Controls
-set mouse=a
-
 " Autocomplete
 inoremap ( ()<Esc>i
 inoremap { {}<Esc>i
 inoremap < <><Esc>i
+inoremap " ""<Esc>i
+inoremap ' ''<Esc>i
+
+" pane navigation
+map <C-j> <C-W>j
+map <C-k> <C-W>k
+map <C-h> <C-W>h
+map <C-l> <C-W>l
 
 " NERDTree
 "autocmd vimenter * NERDTree
